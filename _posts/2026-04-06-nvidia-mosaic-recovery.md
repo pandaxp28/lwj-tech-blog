@@ -14,7 +14,7 @@ NVIDIA Mosaic 構成を使用している環境で、表示崩れやブラック
 2. **表示デバイスの再有効化**
 3. **Windows の表示モードを拡張へ戻す**
 
-Quadro Sync II のガイドでも、Mosaic は同期設定の前段にある構成要素として扱われ、Windows 側では Mosaic を先に設定してから同期を有効化する順序が示されています。さらに、同期中はディスプレイが点滅し得ることや、状態確認は System Topology Viewer や LED で行うことが説明されています。fileciteturn6file0
+Quadro Sync II のガイドでも、Mosaic は同期設定の前段にある構成要素として扱われ、Windows 側では Mosaic を先に設定してから同期を有効化する順序が示されています。さらに、同期中はディスプレイが点滅し得ることや、状態確認は System Topology Viewer や LED で行うことが説明されています。
 
 ## 想定している症状
 
@@ -226,7 +226,4 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v TdrDdiDelay /
 - 値を上げても、Mosaic の表示崩れ自体が必ず直るわけではありません
 - まずは `TdrDelay=60` と `TdrDdiDelay=60` の範囲で運用確認するのが無難です
 
-## 関連ファイル
 
-- `scripts/MosaicRecovery.bat`
-- `registry/TdrDelay_60_and_TdrDdiDelay_60.reg`
