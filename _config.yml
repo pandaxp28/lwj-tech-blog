@@ -13,8 +13,8 @@ tagline: 現場で使える技術メモと開発記録
 description: >-
   NVIDIA Mosaic、Windows、GPU、3D ツール開発など、現場で役立つ技術メモをまとめる LWJ の技術ブログです。
 
-url: "https://blog.lwj.co.jp"
-baseurl: ""
+url: "https://pandaxp28.github.io"
+baseurl: "/lwj-tech-blog"
 
 github:
   username: pandaxp28
