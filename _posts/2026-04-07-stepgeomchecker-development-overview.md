@@ -7,7 +7,7 @@ tags: [STEP, IGES, STL, 3Dビューワ, 計測, Windows]
 
 StepGeomChecker は、STEP / IGES / STL を読み込み、3Dビューと Parts ツリーを連動させながら、形状確認、簡易計測、部分出力まで進められる Windows 向けツールです。
 
-![StepGeomChecker メイン画面](/assets/img/posts/main_UI.svg)
+![StepGeomChecker メイン画面](/assets/img/posts/main_UI.png)
 
 *StepGeomChecker のメイン画面。3Dビュー、Parts ツリー、計測ボタン、表示切替を 1 画面にまとめています。*
 
