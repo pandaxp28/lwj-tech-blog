@@ -17,7 +17,7 @@ V2.1 で大きいのは、STEP 読み込みまわりの見直しです。
 
 ## V2.0系から見た読み込み高速化
 
-性能記録では、`etc.STEP`、DirectX、`deflection=0.5` の条件で、`AnalyzeTotal` は `374931 ms` から `11104 ms`、`Load_Total` は `372376 ms` から `8382 ms` まで短縮されています。
+性能記録では、**350MBのSTEPファイル**、DirectX、`deflection=0.5` の条件で、`AnalyzeTotal` は `374931 ms` から `11104 ms`、`Load_Total` は `372376 ms` から `8382 ms` まで短縮されています。
 
 これは `AnalyzeTotal` で約 **97.0 % 短縮 / 約 33.8 倍**、`Load_Total` で約 **97.7 % 短縮 / 約 44.4 倍** に相当します。V2.0系までの待ち方に比べると、体感差がかなり大きい更新です。
 
