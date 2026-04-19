@@ -39,6 +39,13 @@ pwa:
 
 paginate: 10
 
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
