@@ -1,6 +1,6 @@
 ---
 title: HDMI・DisplayPort変換ケーブルのパッシブとアクティブの違い｜マルチディスプレイで起きる問題点
-date: 2026-04-27 12:00:00 +0900
+date: 2026-04-27 00:00:00 +0900
 categories: [Windows, GPU]
 tags: [HDMI, DisplayPort, DP, NVIDIA, Mosaic, MultiDisplay, Troubleshooting]
 pin: false
