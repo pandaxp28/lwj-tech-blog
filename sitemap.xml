@@ -1,30 +1,63 @@
----
-layout: null
-permalink: /sitemap.xml
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% assign pages_for_sitemap = site.html_pages | where_exp: 'item', 'item.sitemap != false' %}
-{% for page in pages_for_sitemap %}
   <url>
-    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/</loc>
+    <lastmod>2026-06-12</lastmod>
   </url>
-{% endfor %}
-{% for post in site.posts %}
-  {% if post.sitemap != false %}
   <url>
-    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
-    <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/categories/</loc>
+    <lastmod>2026-06-12</lastmod>
   </url>
-  {% endif %}
-{% endfor %}
-{% for doc in site.tabs %}
-  {% if doc.sitemap != false %}
   <url>
-    <loc>{{ site.url }}{{ site.baseurl }}{{ doc.url }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/tags/</loc>
+    <lastmod>2026-06-12</lastmod>
   </url>
-  {% endif %}
-{% endfor %}
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/archives/</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/about/</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/display-information-collector/</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/windows7-quadro-new-displayport-monitor-crash/</loc>
+    <lastmod>2026-04-27</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/displayport-hdmi-active-passive-adapter/</loc>
+    <lastmod>2026-04-27</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/display-alignment-tool/</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/geomcatalog-local-cad-file-organizer/</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/stepgeomchecker-v2-1-update/</loc>
+    <lastmod>2026-04-08</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/stepgeomchecker-development-overview/</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/lwj-tech-blog-guide/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/winmaintenancetool-guide/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pandaxp28.github.io/lwj-tech-blog/posts/nvidia-mosaic-recovery/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
 </urlset>
