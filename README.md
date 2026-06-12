@@ -1,7 +1,9 @@
-# LWJ Tech Blog
+# [LWJ Tech Blog](https://pandaxp28.github.io/lwj-tech-blog/)
 
 LWJ の技術ブログです。
 
+- Site: https://pandaxp28.github.io/lwj-tech-blog/
+- Sitemap: https://pandaxp28.github.io/lwj-tech-blog/sitemap.xml
 - Theme: Chirpy
 - Hosting: GitHub Pages
 - Domain: blog.lwj.co.jp（後で設定）
